@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbopack",
+    "project": "next dev --turbopack",
+    "dev": "npx pnpm project",
     "start": "next start"
   },
   "dependencies": {
